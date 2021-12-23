@@ -113,14 +113,34 @@ body {
     }
 }
 
-.snow4 {
-    left: 18%;
-    top: 18%;
+.snow5 {
+    left: 59%;
+    top: 1%;
     position: absolute;
-    animation: 4s snow4 ease-out infinite;
+    animation: 6s snow4 ease infinite;
 }
 
 @keyframes snow5 {
+    0% {
+        left: 75%;
+        top: 18%;
+    }
+    80% {
+        top: 90%
+    }
+    100% {
+        top: 90%
+    }
+}
+
+.snow6 {
+    left: 65%;
+    top: 5%;
+    position: absolute;
+    animation: 6s snow6 ease-in infinite;
+}
+
+@keyframes snow6 {
     0% {
         left: 75%;
         top: 18%;
@@ -169,6 +189,49 @@ body {
         top: 90%
     }
     100% {
+        top: 90%
+    }
+}
+
+.snow9 {
+    left: 50%;
+    top: 10%;
+    position: absolute;
+    animation: 5s snow9 ease-out infinite;
+}
+
+@keyframes snow9 {
+    0% {
+        left: 85%;
+        top: 20%;
+    }
+    80% {
+        left: 50%;
+        top: 90%
+    }
+    100% {
+        top: 90%
+    }
+}
+
+.snow10 {
+    left: 100%;
+    top: 10%;
+    position: absolute;
+    animation: 7s snow10 ease infinite;
+}
+
+@keyframes snow10 {
+    0% {
+        left: 100%;
+        top: 10%;
+    }
+    80% {
+        left: 50%;
+        top: 90%
+    }
+    100% {
+        left: 50%;
         top: 90%
     }
 }
