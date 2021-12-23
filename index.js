@@ -86,7 +86,7 @@ class ChristmasTree {
                 color: 'red'
             },
             ...setTreeCrownData(3),
-            ...this.buildTreeStump(4, 3, gapRow)
+            ...this.buildTreeStump(5, 3, gapRow)
         ]
 
         function setTreeCrownData(crownNum) {
